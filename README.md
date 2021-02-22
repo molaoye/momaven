@@ -1,3 +1,7 @@
+﻿### 简单maven继承工程
+
+
+
 ### 开发环境搭建
 - base/util/cloud/download/networking按maven项目导入到ide；
 - maven import，先base，再util/cloud/download/networking；
