@@ -1,0 +1,13 @@
+server:
+  port: 8993
+
+
+
+#######################vkv下载#######################
+##访问的url
+spring.mvc.static-path-pattern: /ktvcloud/**
+##vkv资源位置
+###测试
+#spring.resources.static-locations: file:D:/DevTool,file:C:/
+###生产
+spring.resources.static-locations: file:/mountHd-b,file:/mountHd-c,file:/mountHd-d,file:/mountHd-e,file:/mountHd-f
